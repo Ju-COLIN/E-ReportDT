@@ -46,6 +46,8 @@ L'outil est écrit en Python. Il reconnaît les textes et les objets des plans e
 5. **Retouche à la main, si besoin.** Calage à la main d'un plan non calé, dessin des réseaux (tracé libre, tracé qui suit la couleur du trait, recherche de tous les traits d'une même couleur), correction du report : supprimer un trait, changer son réseau ou sa classe, déplacer ses sommets.
 6. **Livrables.** Pour la DAO et le SIG : DXF, DWG, GeoPackage. Les orthophotos à 5 cm des plans Enedis et GRDF, calées. Un plan de synthèse des réseaux en PDF, sur la zone de votre choix.
 
+Le DWG demande [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter), un logiciel gratuit à installer à part, dans le dossier proposé par défaut. Sans lui, le DXF est livré mais pas le DWG.
+
 Un exploitant sans gabarit est signalé « non pris en charge » : rien n'est deviné. Son plan peut être calé et dessiné à la main. Les plans scannés ne sont pas lus.
 
 ## Vos plans restent sur votre poste
