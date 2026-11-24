@@ -14,9 +14,7 @@ E-ReportDT lit les réponses des exploitants (plans PDF, fichiers StaR-DT) et en
 
 ## Démonstration en vidéo (5 minutes)
 
-[![Voir la démonstration d'E-ReportDT en vidéo](docs/demo/demo.jpg)](docs/demo/E-ReportDT_demo.mp4)
-
-▶️ [Voir la vidéo de démonstration](docs/demo/E-ReportDT_demo.mp4)
+https://github.com/user-attachments/assets/97bd2d49-0f59-498d-b7c8-cd19ed88630b
 
 ## Pourquoi cet outil
 
