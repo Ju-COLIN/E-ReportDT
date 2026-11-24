@@ -12,7 +12,11 @@ E-ReportDT lit les réponses des exploitants (plans PDF, fichiers StaR-DT) et en
 - 🗂️ [Exploitants pris en charge](EXPLOITANTS.md)
 - 📈 [Nouveautés : ce qui fonctionne, ce qui reste à aboutir](NOUVEAUTES.md)
 
-<!-- Vidéo de démonstration : à ajouter ici -->
+## Démonstration en vidéo (5 minutes)
+
+[![Voir la démonstration d'E-ReportDT en vidéo](docs/demo/demo.jpg)](docs/demo/E-ReportDT_demo.mp4)
+
+▶️ [Voir la vidéo de démonstration](docs/demo/E-ReportDT_demo.mp4)
 
 ## Pourquoi cet outil
 
