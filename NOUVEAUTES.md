@@ -1,6 +1,6 @@
 # Nouveautés
 
-## Version 0.5.0 — première version (bêta)
+## Version 0.5.1 — première version (bêta)
 
 ### Ce qui fonctionne
 
@@ -14,12 +14,16 @@
 
 - À aboutir — Outils manuels : « Caler et dessiner… », « Compléter la vectorisation… » et « Retoucher sur la carte… ». Ils sont récents : vérifiez chaque résultat sur le plan original.
 - À aboutir — Aides au dessin : « Tracé auto par couleur », « Proposer tous les traits de couleur » (avec la légende du plan) et « Textes par couleur ». Ce sont des propositions : il peut manquer des traits, et certains ne sont pas des réseaux.
-- À aboutir — Exploitant sans gabarit : rien n'est reporté automatiquement ; son plan se cale et se dessine à la main, une revue des couleurs est préparée pour vous aider.
+- À aboutir — Exploitant sans gabarit : son plan se cale seul quand son fond est le cadastre ; le report de ses traits de couleur vous est proposé, en classe non lue, à votre demande (à vérifier) ; sinon, dessin à la main avec la revue des couleurs.
 - À aboutir — Peu d'exploitants ont un gabarit pour l'instant : proposez les vôtres par « Proposer cet exploitant ».
 - À aboutir — Plans scannés : non lus. Sans orthophoto à 5 cm de la zone, le calage ne peut pas être contrôlé finement.
 
 ## Détail des fonctions
 
+- Report automatique sans gabarit : proposé par une question à la fin du traitement (et après un calage à la main validé), jamais fait d'office ; « Reporter les réseaux sans gabarit… » et « Annuler le report automatique » dans le bloc « Corriger le report » ; il se fait sans bloquer la fenêtre, puis le tableau, la carte et le rapport suivent.
+- Traits reportés automatiquement : dans la carte sur leurs calques « -auto », en pointillé ; « Retoucher sur la carte… » les confirme (un à un ou tout un calque), les reclasse, les coupe ou les retire ; relancer ou annuler le report ne touche jamais à ce que vous avez repris.
+- Exploitant sans gabarit dont un plan est calé : report automatique de ses traits de couleur sur demande, en classe non lue, aux calques « -auto » (libellé de la légende quand il s'accorde) ; tableau et rapport disent « reporté sans gabarit, à vérifier » ; la page de garde du plan compte à part les exploitants reportés ainsi et ceux dessinés à la main.
+- Exploitant sans gabarit : un plan en image sur fond cadastral, même légèrement tourné, est calé automatiquement sur le cadastre public quand la solution est unique et que les deux moitiés de la page s'accordent ; il reste « à vérifier ».
 - Revue des couleurs préparée : elle s'ouvre directement, même sur une page non calée ; vos choix sont gardés, et les traits gardés ne sont dessinés qu'après la validation du calage.
 - Exploitant sans gabarit : pour ses pages de plan en image, le traitement prépare la revue des couleurs (groupes de couleur et légende) ; le rapport dit « réseaux à vérifier ». Rien n'est reporté sans vous.
 - Bloc « Corriger le report » au-dessus du rapport d'exécution : « Retoucher sur la carte… » et « Compléter la vectorisation… » de l'exploitant choisi, sans défiler le tableau.
